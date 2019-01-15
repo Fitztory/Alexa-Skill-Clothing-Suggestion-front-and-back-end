@@ -1,0 +1,372 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "what should i wear today",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GoOther",
+                    "slots": [
+                        {
+                            "name": "location",
+                            "type": "ny_county"
+                        }
+                    ],
+                    "samples": [
+                        "I will go to {location} today"
+                    ]
+                },
+                {
+                    "name": "Start",
+                    "slots": [],
+                    "samples": [
+                        "What should I wear today"
+                    ]
+                },
+                {
+                    "name": "StayHere",
+                    "slots": [],
+                    "samples": [
+                        "I will stay here for the whole day"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "ny_county",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Yates"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wyoming"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Westchester"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wayne"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Washington"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Warren"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ulster"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tompkins"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tioga"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sullivan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Suffolk"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Steuben"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "St. Lawrence"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Seneca"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Schuyler"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Schoharie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Schenectady"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Saratoga"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rockland"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Richmond"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rensselaer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Queens"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Putnam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Otsego"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oswego"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Orleans"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Orange"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ontario"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Onondaga"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oneida"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Niagara"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "New York"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nassau"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Montgomery"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Monroe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Madison"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Livingston"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lewis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kings"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jefferson"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Herkimer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hamilton"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Greene"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Genesee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fulton"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Franklin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Essex"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Erie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dutchess"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Delaware"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cortland"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Columbia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clinton"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chenango"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chemung"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chautauqua"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cayuga"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cattaraugus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Broome"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bronx"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Allegany"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Albany"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
